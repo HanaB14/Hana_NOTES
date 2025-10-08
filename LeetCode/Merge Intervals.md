@@ -1,6 +1,7 @@
 # Merge
 
-[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)  
+
 Remarks:
 1. Comparator (Use Lambda):（`Arrays.sort(intervals, (a,b)->a[0]-b[0])`）  
 
