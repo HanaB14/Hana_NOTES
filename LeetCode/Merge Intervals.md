@@ -7,16 +7,14 @@ Remarks:
 
 2. Arrays.sort() directly modifies the order on the original array.
 
-3. Return (List->)2D Array: toArray()
-`merged.toArray(new int[merged.size()][])`
+3. Return (List->)2D Array: toArray() `merged.toArray(new int[merged.size()][])`
 
 e.g. new int[3][] //建一个有3行但内容为null的二维数组
 e.g. new int[3][2] //建一个“3行2列”的矩形二维数组
----
+
 
 💡 Handle edge case -> Sort the intervals based on their starting points -> Iterate through the sorted intervals and check for an overlap, starting from the second one -> Return the resulting 2D array.
 
----
 ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
