@@ -8,7 +8,8 @@ Remarks:
 2. Arrays.sort() directly modifies the order on the original array.
 
 3. Return (List->)2D Array: toArray()
-`merged.toArray(new int[merged.size()][])`
+`merged.toArray(new int[merged.size()][])`  
+
 e.g. new int[3][] //建一个有3行但内容为null的二维数组
 e.g. new int[3][2] //建一个“3行2列”的矩形二维数组
 ---

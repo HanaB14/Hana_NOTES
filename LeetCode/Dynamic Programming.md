@@ -8,7 +8,7 @@ Keywords: "Minimum/Maximum/Optimal/most/least/shortest/cheapest"
 Remarks: 
 1. Bottom-up version
 
-2. Remember for max/min: Math.max() or Math.min()
+2. Remember for max/min: `Math.max()` or `Math.min()`
 
 ```java
 class Solution {
