@@ -3,12 +3,10 @@
 Keywords: "Minimum/Maximum/Optimal/most/least/shortest/cheapest"
 ---
 
-[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  
-
-Remarks: 
-1. Bottom-up version
-
-2. Remember for max/min: `Math.max()` or `Math.min()`
+> [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  
+> Remarks: 
+> 1. Bottom-up version
+> 2. Remember for max/min: `Math.max()` or `Math.min()`
 
 ```java
 class Solution {
@@ -38,21 +36,15 @@ class Solution {
 }
 ```
 
-[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+> [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+> Given an integer array `nums`, find the subarray with the largest sum, and return its sum.
 
-Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return *its sum*.
+> Example 1:
+> Input: nums = [-2,1,-3,4,-1,2,1,-5,4]  
+> Output: 6
+> Explanation: [4,-1,2,1] has the largest sum = 6.
 
----
-
-### Example 1:
-**Input:** `nums = [-2,1,-3,4,-1,2,1,-5,4]`  
-**Output:** `6`  
-**Explanation:** The subarray `[4,-1,2,1]` has the largest sum = `6`.
-
----
-
-Remarks: 
-    Use `maxSum` to track the global maximum.
+> Remarks: Use `maxSum` to track the global maximum.
 
 ```java
 class Solution {
